@@ -1,0 +1,11 @@
+CREATE DATABASE timeoff;
+USE timeoff;
+CREATE TABLE employee
+(id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+balance INT(3));
+
+
+CREATE TABLE requests
+(id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+request_id INT(3),
+requests INT(3));
